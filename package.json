@@ -2,16 +2,16 @@
   "name": "learn-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "npx nodemon server/server.js -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx nodemon app.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "multer": "^1.4.2",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
